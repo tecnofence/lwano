@@ -25,7 +25,7 @@
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom($email, $name);
-        $mail->addAddress("lwanodigitalmakers.gmail.com"); //enter you email address 
+        $mail->addAddress("lwanodigitalmakers@gmail.com"); //enter you email address 
         $mail->Subject = ("$email ($subject)");
         $mail->Body = $body;
 
